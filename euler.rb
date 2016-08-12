@@ -110,7 +110,7 @@ def alphabetical_word_value(word_to_check)
 end
 
 def nth_fibnoacci(nth)
-    return 1 if nth == 1 || nth == 2
+  return 1 if nth == 1 || nth == 2
   fibonacci_sequence = [1,1]
   (3..nth).each do |i|
     fibonacci_sequence << fibonacci_sequence[-1] + fibonacci_sequence[-2]
